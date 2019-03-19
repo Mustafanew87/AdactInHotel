@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="138.463305">
+<testcase classname="End to End functionality for AdactIn Web Application" name="User verify for valid login details" time="138.463305">
+<failure message="java.lang.RuntimeException&#13;&#10;&#9;at org.maven.resource.BaseClass.getElementText(BaseClass.java:168)&#13;&#10;&#9;at org.maven.adactinstepdefinition.AdactInStepDefinition.user_should_verify_the_Welcome_to_AdactIn_Group_of_Hotels_is_displayed(AdactInStepDefinition.java:45)&#13;&#10;&#9;at ✽.Then User should verify the Welcome to AdactIn Group of Hotels is displayed(AdactInScenarios.feature:11)&#13;&#10;"><![CDATA[Given User should launch the browser........................................passed
+And User hold for '5' seconds...............................................passed
+Then User should verify the Welcome to AdactIn Group of Hotels is displayed.failed
+When User should enter the username in the login page.......................skipped
+And User should enter the passward in the login page........................skipped
+And User clicks the Login button in the login page..........................skipped
+And User hold for '3' seconds...............................................skipped
+And User click the signout to exit from the loggin page.....................skipped
+And User hold for '3' seconds...............................................skipped
+
+StackTrace:
+java.lang.RuntimeException
+	at org.maven.resource.BaseClass.getElementText(BaseClass.java:168)
+	at org.maven.adactinstepdefinition.AdactInStepDefinition.user_should_verify_the_Welcome_to_AdactIn_Group_of_Hotels_is_displayed(AdactInStepDefinition.java:45)
+	at ✽.Then User should verify the Welcome to AdactIn Group of Hotels is displayed(AdactInScenarios.feature:11)
+]]></failure>
+</testcase>
+</testsuite>
